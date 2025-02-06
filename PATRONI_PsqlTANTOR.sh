@@ -9,7 +9,7 @@ deb http://download.astralinux.ru/astra/frozen/1.7_x86-64/1.7.3/uu/2/repository-
 # Go to the home directory or another suitable directory
 # Перейдите в домашнюю директорию или другую подходящую директорию
 cd ~
-
+## Добавил изменения ##
 # Download the archive with the latest version of etcd
 # Загрузите архив с последней версией etcd
 curl -L https://github.com/etcd-io/etcd/releases/download/<latest_version>/etcd-<latest_version>-linux-amd64.tar.gz -o etcd.tar.gz
