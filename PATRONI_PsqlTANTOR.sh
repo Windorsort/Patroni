@@ -43,7 +43,7 @@ Documentation=https://github.com/etcd-io/etcd
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/etcd \
+ExecStart=/usr/local/bin/etcd \
   --name pp_services_1 \
   --data-dir /var/lib/etcd \
   --listen-peer-urls http://0.0.0.0:2380 \
